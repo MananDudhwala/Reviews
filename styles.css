@@ -1,0 +1,146 @@
+.body {
+    font-family: "Barlow Condensed", sans-serif;
+    background-color: #e8e8e8;
+}
+
+.first {
+    background-color: #892cdc;
+    margin-top: 50px;
+    margin-left: 4.1rem;
+    height: 25rem;
+    width: 45rem;
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    background-position-x: 80%;
+}
+
+.card-title {
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 2px;
+}
+
+.daniel {
+    float: left;
+    border-radius: 50px;
+    width: 50px;
+    border-color: #c060a1;
+}
+
+.card-text {
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 1rem;
+}
+
+.designation {
+    color: #fff;
+    opacity: 50%;
+    margin-left: 60px;
+}
+
+.para1 {
+    color: #fff;
+    opacity: 70%;
+    font-size: 1rem;
+}
+
+.second {
+    background-color: #394867;
+    width: 22rem;
+    margin-top: 50px;
+    margin-left: 1.4rem;
+    height: 25rem;
+}
+
+.third {
+    background-color: #f3f9fb;
+    width: 22rem;
+    margin-top: 50px;
+    margin-left: 73.7rem;
+    height: 51rem;
+    position: absolute;
+}
+
+.Kira {
+    color: black;
+    font-weight: 600;
+}
+
+.kirad {
+    color: black;
+    opacity: 50%;
+    font-weight: 500;
+}
+
+.kiradd {
+    color: #000;
+    opacity: 70%;
+    font-size: 2rem;
+}
+
+.big {
+    color: black;
+}
+
+.fourth {
+    background-color: #f3f9fb;
+    width: 22rem;
+    height: 25rem;
+    margin-left: 50px;
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.jean {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.fifth {
+    margin-left: 10rem;
+    height: 25rem;
+    width: 45rem;
+    margin-left: 26.5rem;
+    margin-top: 1rem;
+    background-color: #1b262c;
+}
+
+.html {
+    background-color: red;
+}
+
+footer {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .first {
+        position: relative;
+        margin: auto;
+        width: 80%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+        position: static;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: 2rem 0;
+        height: auto;
+    }
+}
